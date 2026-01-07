@@ -11,7 +11,7 @@ try:
         content = file.read()
         print("RECOVERED DATA:")
         print(content)
-        print("\n\033[0;32m🟩 Data recovery complete."
+        print("\n\033[0;32m🟩 Data recovery complete. "
               "Storage unit disconnected.\033[0;37m")
 except Exception:
     print("\033[0;31m🟥 ERROR: Storage vault not found.\033[0;37m")
