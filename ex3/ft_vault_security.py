@@ -1,23 +1,33 @@
 #!/usr/bin/python
 
 
-class SecureOpen:
-    def __enter__(self, file: str, flag: str):
-        print("[SECURE OPEN] Opening file...")
-        try:
-            self.file = open()
-        except Exception as e:
-            raise Exception(f"Error while opening file: {e}")
-        return (self.file)
-    
-    def write(self, data):
-        try:
-            return (self.file.write(data))
-        except Exception as e:
-            raise Exception(f"Error while writing: {e}")
+print("=== CYBER ARCHIVES - VAULT SECURITY SYSTEM ===\n")
 
-    def __exit__(self):
-        try:
-            return (self.file.close())
-        except:
-            
+print("Initiating secure vault access...")
+file = "classified_data.txt"
+error = False
+try:
+    with open(file, 'r') as file:
+        print("Vault connection established with failsafe protocols\n")
+        print("SECURE EXTRACTION:")
+        for line in file:
+            print(line, end="")
+        print("\n")
+except Exception as e:
+    print(f"\033[0;31m🟥 ERROR: Storage vault not found: {e}\033[0;37m")
+    error = True
+
+file = "security_protocols.txt"
+try:
+    with open(file, 'w') as file:
+        print("SECURE PRESERVATION:")
+        data = "[CLASSIFIED] New security protocols archived"
+        file.write(data)
+        print(data)
+        print("Valut automatically sealed upon completion\n")
+except Exception as e:
+    print(f"\033[0;31m🟥 ERROR: Storage vault not found: {e}\033[0;37m")
+    error = True
+
+if not (error):
+    print("All vault operations completed with maximum security.")
