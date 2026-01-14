@@ -1,14 +1,12 @@
 # Python module 04 : Cyber Archives – Data Archivist
 
 A Python project designed for students of School 42.
-This module introduces file handling, stream management, and secure resource control through a futuristic digital archive simulation based on the official Cyber Archives – Data Archivist subject.
-
-You are trained as a Data Archivist in the year 2087, responsible for preserving humanity’s digital heritage. Through a series of missions, you will learn how to safely read, write, manage, and protect data using Python.
+This module introduces file handling, stream management, and secure resource control through a futuristic digital archive simulation.
 
 This project focuses on:
 - File reading and writing
 - Using standard input, output, and error streams
-- Context managers (with)
+- Context managers (`with`)
 - Defensive programming and error handling
 - Writing reliable programs that never corrupt data and never crash
 
@@ -18,8 +16,8 @@ This project focuses on:
 - Your code must respect the flake8 linter standards
 - Each exercise must be in its own file
 - Use proper naming conventions
-- Classes in PascalCase
-- Functions and variables in snake_case
+  - Classes in PascalCase
+  - Functions and variables in snake_case
 - Include docstrings for functions, classes, and methods
 - Type hints are mandatory for all functions and methods
 - Only use the authorized functions and libraries specified per exercise
