@@ -14,29 +14,18 @@ This project focuses on:
 
 # Given rules
 
-Your code must be written in Python 3.10+
-
-Your code must respect the flake8 linter standards
-
-Each exercise must be in its own file
-
-Use proper naming conventions
-
-Classes in PascalCase
-
-Functions and variables in snake_case
-
-Include docstrings for functions, classes, and methods
-
-Type hints are mandatory for all functions and methods
-
-Only use the authorized functions and libraries specified per exercise
-
-Use the with statement when required to ensure safe file handling
-
-Use try/except blocks when required to handle system failures
-
-Your programs must never crash, even in error scenarios
+- Your code must be written in Python 3.10+
+- Your code must respect the flake8 linter standards
+- Each exercise must be in its own file
+- Use proper naming conventions
+- Classes in PascalCase
+- Functions and variables in snake_case
+- Include docstrings for functions, classes, and methods
+- Type hints are mandatory for all functions and methods
+- Only use the authorized functions and libraries specified per exercise
+- Use the with statement when required to ensure safe file handling
+- Use try/except blocks when required to handle system failures
+- Your programs must never crash, even in error scenarios
 
 Focus on clear demonstration of file operations, streams, and error handling
 
