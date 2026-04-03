@@ -41,4 +41,4 @@ I am a student at the 42 Mulhouse school. Most of my public projects will be fro
  - [For 42 students (my intra profile)](https://profile.intra.42.fr/users/gtourdia)
 
 
-![Logo](https://assets.km0.omerloclients.com/community/cfbe5a0b-7637-43a0-94f9-7df2fc288c1d.jpg)
+![Logo](https://github.com/sousampere/sousampere/blob/main/42mulhouse.png?raw=true)
